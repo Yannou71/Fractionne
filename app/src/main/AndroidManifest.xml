@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity_ChooseTrainigActivity"></activity>
+        <activity android:name=".activity_ChooseTrainigActivity" />
+        <activity android:name=".activity_BeforeStartActivity"></activity>
     </application>
 
 </manifest>
