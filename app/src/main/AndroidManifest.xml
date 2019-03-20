@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_ChooseTrainigActivity" />
-        <activity android:name=".activity_BeforeStartActivity"></activity>
+        <activity android:name=".activity_BeforeStartActivity" />
+        <activity android:name=".activity_createProgramChoice"></activity>
     </application>
 
 </manifest>
