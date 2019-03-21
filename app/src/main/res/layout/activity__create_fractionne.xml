@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_CreateFractionne">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCreateFRunFast"
+        android:layout_centerHorizontal="true"
+        android:text="30s"
+        android:layout_marginTop="30sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCreateFRunFast"
+        android:layout_below="@id/etCreateFRunFast"
+        android:layout_centerHorizontal="true"
+        android:text="Run time Fast"/>
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCreateFRunSlow"
+        android:layout_centerHorizontal="true"
+        android:text="30s"
+        android:layout_below="@id/tCreateFRunFast"
+        android:layout_marginTop="30sp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCreateFRunSlow"
+        android:layout_below="@id/etCreateFRunSlow"
+        android:layout_centerHorizontal="true"
+        android:text="Run time Fast"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCreateFCycle"
+        android:text="8"
+        android:layout_below="@id/tCreateFRunSlow"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCreateFCycle"
+        android:layout_below="@id/etCreateFCycle"
+        android:layout_centerHorizontal="true"
+        android:text="Number of cycle"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCreateFRunRepet"
+        android:layout_below="@id/tCreateFCycle"
+        android:layout_centerHorizontal="true"
+        android:text="2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCreateFRunRepet"
+        android:layout_below="@id/etCreateFRunRepet"
+        android:layout_centerHorizontal="true"
+        android:text="Repetition"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etCreateFRest"
+        android:layout_below="@id/tCreateFRunRepet"
+        android:text="90 s "
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tCreateFRest"
+        android:layout_below="@id/etCreateFRest"
+        android:layout_centerHorizontal="true"
+        android:text="Rest Time between 2 cycles"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

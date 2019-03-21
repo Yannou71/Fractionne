@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".activity_ChooseTrainigActivity" />
         <activity android:name=".activity_BeforeStartActivity" />
-        <activity android:name=".activity_createProgramChoice"></activity>
+        <activity android:name=".activity_createProgramChoice" />
+        <activity android:name=".activity_CreateFractionne"></activity>
     </application>
 
 </manifest>
