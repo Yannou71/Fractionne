@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_TestLocalisation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TestX"
+        android:textSize="30sp"
+        android:text="Localisation X"
+        android:layout_marginTop="30sp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TestY"
+        android:layout_marginTop="50sp"
+        android:text="Localisation Y"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TestX"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TestTime"
+        android:layout_below="@id/TestX"
+        android:layout_centerHorizontal="true"
+        android:text="Time"
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TestDistance"
+        android:text="Distance"
+        android:layout_below="@id/TestTime"
+        android:textSize="30sp"
+        android:layout_marginTop="60sp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
