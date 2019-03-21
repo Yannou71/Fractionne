@@ -19,7 +19,8 @@
         <activity android:name=".activity_ChooseTrainigActivity" />
         <activity android:name=".activity_BeforeStartActivity" />
         <activity android:name=".activity_createProgramChoice" />
-        <activity android:name=".activity_CreateFractionne"></activity>
+        <activity android:name=".activity_CreateFractionne" />
+        <activity android:name=".activity_SeanceInProgress"></activity>
     </application>
 
 </manifest>
