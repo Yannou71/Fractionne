@@ -1,6 +1,7 @@
 package com.example.yannis.fractionne;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -8,12 +9,13 @@ import android.location.LocationManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class activity_TestLocalisation extends AppCompatActivity {
 
     private TextView tLocalisationX, tLocalisationY, tDistance, tTime;
-    private final int updateTimeFrequency = 1000 * 3;
+    private final int updateTimeFrequency = 0;
     private final int updateDistanceFrequency = 0;
 
     @Override
@@ -28,8 +30,10 @@ public class activity_TestLocalisation extends AppCompatActivity {
         tDistance = findViewById(R.id.TestDistance);
         tTime = findViewById(R.id.TestTime);
 
+
+
         //Création du Localisation Manager
-        LocationManager locationManager = (LocationManager) this.getSystemService(this.getBaseContext().LOCATION_SERVICE);
+        LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
         //On crée le Listener
         LocationListener locationListener = new LocationListener() {
@@ -37,9 +41,12 @@ public class activity_TestLocalisation extends AppCompatActivity {
                 // Called when a new location is found by the network location provider.
                 tLocalisationX.setText(""+location.getLatitude());
                 tLocalisationY.setText(""+location.getLongitude());
+                tTime.setText("I'm update");
+                Log.v("localisation","je change");
             }
 
             public void onStatusChanged(String provider, int status, Bundle extras) {
+                Log.v("localisation","je change");
             }
 
             public void onProviderEnabled(String provider) {
@@ -62,7 +69,15 @@ public class activity_TestLocalisation extends AppCompatActivity {
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
+
+        Log.v("localisation","je suis la1");
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+        Log.v("localisation","je suis la2");
+        Location l = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+
+        Log.v("localisation",""+l);
+        Log.v("localisation","je suis ici");
 
     }
 

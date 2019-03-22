@@ -47,5 +47,13 @@
         android:layout_marginBottom="30dp"
         android:textSize="20sp"
         android:padding="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainTestLocalisation"
+        android:layout_below="@id/BMainMyRunning"
+        android:text="test"/>
+
+
 
 </RelativeLayout>
