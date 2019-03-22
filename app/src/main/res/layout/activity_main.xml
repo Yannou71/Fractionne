@@ -16,23 +16,14 @@
         android:layout_marginVertical="40dp"
         android:textSize="40sp"/>
 
-    <ImageView
-        android:id="@+id/ImageRunner"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_below="@id/TMainTitle"
-        android:layout_centerHorizontal="true"
-        android:maxWidth="40dp"
-        android:maxHeight="30dp"
-        android:src="@drawable/runner"
-        android:contentDescription="@string/description_icone"/>
+
 
     <Button
         android:text="@string/training"
         android:id="@+id/BMainTraining"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ImageRunner"
+        android:layout_below="@id/TMainTitle"
         android:layout_centerHorizontal="true"
         android:layout_marginVertical="30dp"
         android:textSize="20sp"

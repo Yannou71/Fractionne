@@ -42,11 +42,11 @@ public class activity_TestLocalisation extends AppCompatActivity {
                 tLocalisationX.setText(""+location.getLatitude());
                 tLocalisationY.setText(""+location.getLongitude());
                 tTime.setText("I'm update");
-                Log.v("localisation","je change");
+
             }
 
             public void onStatusChanged(String provider, int status, Bundle extras) {
-                Log.v("localisation","je change");
+
             }
 
             public void onProviderEnabled(String provider) {
@@ -70,14 +70,13 @@ public class activity_TestLocalisation extends AppCompatActivity {
             return;
         }
 
-        Log.v("localisation","je suis la1");
+
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
-        Log.v("localisation","je suis la2");
+
         Location l = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
 
-        Log.v("localisation",""+l);
-        Log.v("localisation","je suis ici");
+
 
     }
 
