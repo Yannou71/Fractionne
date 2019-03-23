@@ -117,9 +117,11 @@ public class activity_TestLocalisation extends AppCompatActivity {
                    tLocalisationX.setText(""+location.getLongitude());
                    tLocalisationY.setText(lastLocalisation.getLongitude()+"");
                     currentDistance=lastLocalisation.distanceTo(location)+currentDistance;
+                    Log.d("testLongitude",""+location.getLongitude());
+                    Log.d("testLatitude",""+location.getLatitude());
+                    Log.d("testLastLongitude",""+lastLocalisation.getLongitude());
+                    Log.d("testLastLattitude",""+lastLocalisation.getLatitude());
                     Log.d("testDistance",""+location.distanceTo(lastLocalisation)*100);
-                    Log.d("testACCURACY",""+location.getAccuracy());
-                    Log.d("testprovider",location.getProvider());
                     tDistance.setText(""+currentDistance);
 
 

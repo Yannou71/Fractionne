@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button test;
+    Button training;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
 
         test = findViewById(R.id.MainTestLocalisation);
         test.setOnClickListener(listenerTestLocalissation);
+
+        training = findViewById(R.id.BMainTraining);
+        training.setOnClickListener(listenerTestTraining);
 
 
     }
@@ -31,5 +35,13 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+    private View.OnClickListener listenerTestTraining = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent1 = new Intent(MainActivity.this,testCalculDistance.class);
+            Log.d("test","appui sur ");
+            startActivity(intent1);
+        }
+    };
 
 }
