@@ -10,7 +10,14 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.TextView;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import static android.location.Location.FORMAT_DEGREES;
+import static android.location.Location.FORMAT_MINUTES;
+import static android.location.Location.convert;
 
 
 public class activity_TestLocalisation extends AppCompatActivity {
@@ -18,16 +25,53 @@ public class activity_TestLocalisation extends AppCompatActivity {
 
 
     private TextView tLocalisationX, tLocalisationY, tDistance, tTime;
-    private final int updateTimeFrequency = 0;
-    private final int updateDistanceFrequency = 0;
+    private final long updateTimeFrequency = 1000;
+    private final float updateDistanceFrequency = 1/100;
     private final int MY_PERMISSIONS_REQUEST_LOCALISATION=314;
+    Timer timer,timerFast;
+    private int fastInterval,slowInterval,restInterval;
+    Location lastLocalisation=null;
+    private int timePassed=0;
+    float currentDistance=0;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__test_localisation);
+        timerFast = new Timer();
+        timer=new Timer();
+        fastInterval=10*1000;
+        timerFast.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                runOnUiThread(new TimerTask() {
+                    @Override
+                    public void run() {
+                        timePassed=0;
+                        float speed = (currentDistance/1000)/fastInterval;
+                        //tDistance.setText("speed "+speed+"distance " + currentDistance);
+                        tTime.setText("0");
+                        //currentDistance=0;
+                    }
+                });
+            }
+        },0,fastInterval);
 
+
+
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                runOnUiThread(new TimerTask() {
+                    @Override
+                    public void run() {
+                        timePassed++;
+                        tTime.setText(""+timePassed);
+                    }
+                });
+            }
+        },0,1000);
 
         //On recupere les Texte Views
         tLocalisationX = findViewById(R.id.TestX);
@@ -39,12 +83,24 @@ public class activity_TestLocalisation extends AppCompatActivity {
         //Création du Localisation Manager
         LocationManager locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
+
         //On crée le Listener
         LocationListener locationListener = new LocationListener() {
             public void onLocationChanged(Location location) {
                 // Called when a new location is found by the network location provider.
-                tLocalisationX.setText("" + location.getLatitude());
-                tLocalisationY.setText("" + location.getLongitude());
+                if(lastLocalisation!=null){
+                    tLocalisationX.setText(""+location.getLongitude());
+                    tLocalisationY.setText(lastLocalisation.getLongitude()+"");
+
+                    currentDistance=location.distanceTo(lastLocalisation)+currentDistance;
+                    Log.d("testDistance",""+location.distanceTo(lastLocalisation)*100);
+                    Log.d("testACCURACY",""+location.getAccuracy()*100);
+                    tDistance.setText(""+currentDistance);
+                }
+                lastLocalisation=location;
+
+
+
 
 
             }
@@ -68,7 +124,7 @@ public class activity_TestLocalisation extends AppCompatActivity {
 
 
 
-        tTime.setText("avant");
+
 
         if (ContextCompat.checkSelfPermission(activity_TestLocalisation.this, Manifest.permission.ACCESS_FINE_LOCATION )!= PackageManager.PERMISSION_GRANTED) {
             // Permission is not granted
@@ -96,12 +152,13 @@ public class activity_TestLocalisation extends AppCompatActivity {
             // Permission has already been granted
         }
 
-        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, updateTimeFrequency, updateDistanceFrequency, locationListener);
 
 
-        Location l = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
-        
+
+
+
 
 
     }
@@ -126,6 +183,10 @@ public class activity_TestLocalisation extends AppCompatActivity {
             // permissions this app might request.
         }
     }
+
+
+
+
 
 
 
