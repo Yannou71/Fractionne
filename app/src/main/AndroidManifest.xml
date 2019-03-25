@@ -22,7 +22,7 @@
         <activity android:name=".activity_createProgramChoice" />
         <activity android:name=".activity_CreateFractionne" />
         <activity android:name=".activity_SeanceInProgress" />
-        <activity android:name=".activity_TestLocalisation"></activity>
+        <activity android:name=".activity_testSeance"></activity>
     </application>
 
 </manifest>

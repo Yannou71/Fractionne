@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_SeanceInProgress">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProInterval"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="5émé intervale"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProIntervalTitle"
+        android:text="N° Interval"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/testSinProInterval"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProDuration"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="20sp"
+        android:layout_below="@id/testSinProIntervalTitle"
+        android:text="1 min 30 s"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProDurationTitle"
+        android:text="Duration"
+        android:layout_below="@id/testSinProDuration"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProDistance"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/testSinProIntervalTitle"
+        android:layout_alignParentEnd="true"
+        android:text="3 km"
+        android:layout_marginEnd="30sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/testSinProDuration"
+        android:id="@+id/testSinProDistanceTitle"
+        android:text="Distance"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProVFast"
+        android:text="12km/h"
+        android:layout_marginTop="30sp"
+        android:layout_below="@id/testSinProDurationTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProVFastTitle"
+        android:layout_below="@id/testSinProVFast"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25sp"
+        android:text="Average Speed Fast"
+        android:gravity="center"
+        android:maxWidth="52sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProVSlow"
+        android:layout_below="@id/testSinProDistanceTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30sp"
+        android:text="5km/h"
+        android:layout_marginTop="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testSinProVSlowTitle"
+        android:layout_below="@id/testSinProVSlow"
+        android:text="Average Speed Slow"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30sp"
+        android:maxWidth="52sp"
+        android:gravity="center"/>
+
+</RelativeLayout>
