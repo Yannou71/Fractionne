@@ -19,13 +19,14 @@ import java.util.TimerTask;
 import static android.location.Location.FORMAT_DEGREES;
 import static android.location.Location.FORMAT_MINUTES;
 import static android.location.Location.convert;
+import static android.location.Location.distanceBetween;
 
 
 public class activity_TestLocalisation extends AppCompatActivity {
 
 
     private TextView tLocalisationX, tLocalisationY, tDistance, tTime;
-    private final long updateTimeFrequency = 0;
+    private final long updateTimeFrequency = 1000;
     private final float updateDistanceFrequency = 0;
     private final int MY_PERMISSIONS_REQUEST_LOCALISATION = 314;
     Timer timer, timerFast;
@@ -34,6 +35,7 @@ public class activity_TestLocalisation extends AppCompatActivity {
     private int timePassed = 0;
     float currentDistance = 0;
     private LocationManager locationManager;
+    
 
 
     @Override
@@ -123,6 +125,7 @@ public class activity_TestLocalisation extends AppCompatActivity {
                     Log.d("testLastLattitude",""+lastLocalisation.getLatitude());
                     Log.d("testDistance",""+location.distanceTo(lastLocalisation)*100);
                     tDistance.setText(""+currentDistance);
+
 
 
                 }

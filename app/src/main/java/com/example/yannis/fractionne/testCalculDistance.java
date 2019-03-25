@@ -116,7 +116,7 @@ public class testCalculDistance extends AppCompatActivity {
                 X2.setText(""+locationArrive.getLatitude());
                 Y2.setText(""+locationArrive.getLongitude());
 
-                result.setText(""+locationArrive.distanceTo(locationArrive)*100);
+                result.setText(""+locationArrive.distanceTo(locationDepart)*100);
             }
         });
 
