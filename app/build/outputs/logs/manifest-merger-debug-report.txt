@@ -1,0 +1,186 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\56753024e6afb506bb468355d6c6131f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\69eb533c7d436e0c34a41daf81be2cd0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef038e6dcd369fac7a5a7ccbbe121aff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d953d0a908d6170ef2f85ab0457da741\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e144f37b8210ccecfee5c67834b93d55\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce18f58ae011a334515a01da74d82df4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\eace0bdf3a78cf8aa5f13ffef9accbfd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\49d7591485e61d7ae1f3747024f8a5e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\004e1443fc92a4a7ed0058e5079271a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\43f282b5d94fd1c408a926374868763a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\375ac49c1d60f1923a9010a0c46d0dbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b4df3962c446867f9b995b7a67d480d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1a6af4c46445543e3933ffbdeab198ab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d36409d1dd61366e7e61b0b02a11f969\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\ac8a56db61b1b90fca2c192d4b972839\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\82a878eefebacdd433d770c982c51279\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\67f1324d401db865a2417ab34f13c8c6\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\640e00c569ccfa6be5a9fbe8a779c441\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\aa93c25ca19273c42e2ab25b2c830a7e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d9ec1143b5e07e63660b5f22c1ae7189\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\31be069d4d500e1679f8c44754d26243\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c2ac8b45a1a5d86063fee1ca2549a142\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e46d1f1bb56b9fff5ed2190b2bee0040\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\56ecbf95a9960a2dec8e9aea71fc790d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ee56616150533ea385d2e86e1add8cc9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\73873929f760386a0e56f58d1d32232e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2537c1e0f857542ed9c353cecde7844a\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:4:22-76
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:5:19-63
+application
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:6:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\69eb533c7d436e0c34a41daf81be2cd0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\69eb533c7d436e0c34a41daf81be2cd0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\82a878eefebacdd433d770c982c51279\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\82a878eefebacdd433d770c982c51279\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\67f1324d401db865a2417ab34f13c8c6\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\67f1324d401db865a2417ab34f13c8c6\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\82a878eefebacdd433d770c982c51279\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.yannis.fractionne.MainActivity
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.yannis.fractionne.activity_ChooseTrainigActivity
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:20:9-68
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:20:19-65
+activity#com.example.yannis.fractionne.activity_BeforeStartActivity
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:21:9-66
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:21:19-63
+activity#com.example.yannis.fractionne.activity_createProgramChoice
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:22:9-66
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:22:19-63
+activity#com.example.yannis.fractionne.activity_CreateFractionne
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:23:9-63
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:23:19-60
+activity#com.example.yannis.fractionne.activity_SeanceInProgress
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:24:9-63
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:24:19-60
+activity#com.example.yannis.fractionne.activity_testSeance
+ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:25:9-66
+	android:name
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml:25:19-54
+uses-sdk
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\56753024e6afb506bb468355d6c6131f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\56753024e6afb506bb468355d6c6131f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\69eb533c7d436e0c34a41daf81be2cd0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\69eb533c7d436e0c34a41daf81be2cd0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef038e6dcd369fac7a5a7ccbbe121aff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef038e6dcd369fac7a5a7ccbbe121aff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d953d0a908d6170ef2f85ab0457da741\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d953d0a908d6170ef2f85ab0457da741\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e144f37b8210ccecfee5c67834b93d55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e144f37b8210ccecfee5c67834b93d55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce18f58ae011a334515a01da74d82df4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ce18f58ae011a334515a01da74d82df4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\eace0bdf3a78cf8aa5f13ffef9accbfd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\eace0bdf3a78cf8aa5f13ffef9accbfd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\49d7591485e61d7ae1f3747024f8a5e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\49d7591485e61d7ae1f3747024f8a5e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\004e1443fc92a4a7ed0058e5079271a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\004e1443fc92a4a7ed0058e5079271a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\43f282b5d94fd1c408a926374868763a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\43f282b5d94fd1c408a926374868763a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\375ac49c1d60f1923a9010a0c46d0dbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\375ac49c1d60f1923a9010a0c46d0dbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b4df3962c446867f9b995b7a67d480d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\b4df3962c446867f9b995b7a67d480d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1a6af4c46445543e3933ffbdeab198ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\1a6af4c46445543e3933ffbdeab198ab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d36409d1dd61366e7e61b0b02a11f969\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d36409d1dd61366e7e61b0b02a11f969\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\ac8a56db61b1b90fca2c192d4b972839\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\ac8a56db61b1b90fca2c192d4b972839\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\82a878eefebacdd433d770c982c51279\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\82a878eefebacdd433d770c982c51279\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\67f1324d401db865a2417ab34f13c8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\67f1324d401db865a2417ab34f13c8c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\640e00c569ccfa6be5a9fbe8a779c441\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\640e00c569ccfa6be5a9fbe8a779c441\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\aa93c25ca19273c42e2ab25b2c830a7e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\aa93c25ca19273c42e2ab25b2c830a7e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d9ec1143b5e07e63660b5f22c1ae7189\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\d9ec1143b5e07e63660b5f22c1ae7189\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\31be069d4d500e1679f8c44754d26243\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\31be069d4d500e1679f8c44754d26243\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c2ac8b45a1a5d86063fee1ca2549a142\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\c2ac8b45a1a5d86063fee1ca2549a142\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e46d1f1bb56b9fff5ed2190b2bee0040\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\e46d1f1bb56b9fff5ed2190b2bee0040\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\56ecbf95a9960a2dec8e9aea71fc790d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\56ecbf95a9960a2dec8e9aea71fc790d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ee56616150533ea385d2e86e1add8cc9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ee56616150533ea385d2e86e1add8cc9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\73873929f760386a0e56f58d1d32232e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\73873929f760386a0e56f58d1d32232e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2537c1e0f857542ed9c353cecde7844a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\yanni\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2537c1e0f857542ed9c353cecde7844a\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yanni\OneDrive\Documents\INSA\Projet\Fractionne\app\src\main\AndroidManifest.xml

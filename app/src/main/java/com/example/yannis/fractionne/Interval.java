@@ -1,26 +1,29 @@
 package com.example.yannis.fractionne;
 
 public class Interval {
-    private int time;
+    private int numero;
     private String type;
-    private float distance;
-    private float speed;
+    private double distance;
+    private double speed;
 
 
-    public Interval(int time,String type,float distance,float speed){
-        this.time=time;
+    public Interval(int numero, String type,double distance,double speed){
         this.type=type;
+        this.distance=distance;
+        this.speed=speed;
     }
 
-    public float getDistance() {
+    public int getNumero() {
+        return numero;
+    }
+
+    public double getDistance() {
         return distance;
     }
 
-    public int getTime() {
-        return time;
-    }
 
-    public float getSpeed() {
+
+    public double getSpeed() {
         return speed;
     }
 
@@ -28,13 +31,15 @@ public class Interval {
         return type;
     }
 
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
     public void setDistance(float distance) {
         this.distance = distance;
     }
 
-    public void setTime(int time) {
-        this.time = time;
-    }
+
 
     public void setSpeed(float speed) {
         this.speed = speed;
@@ -43,5 +48,9 @@ public class Interval {
     public void setType(String type) {
         this.type = type;
     }
-    
+
+    public String toString(){
+        return type+ " distance "+ this.distance+" vitesse "+this.speed;
+    }
+
 }

@@ -103,4 +103,15 @@
         android:maxWidth="52sp"
         android:gravity="center"/>
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testTimePast"
+        android:layout_below="@id/testSinProVSlowTitle"
+        android:layout_centerHorizontal="true"
+        android:text="20/30"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
+
 </RelativeLayout>

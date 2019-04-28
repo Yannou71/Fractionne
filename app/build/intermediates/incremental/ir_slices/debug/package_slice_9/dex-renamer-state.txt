@@ -1,0 +1,4 @@
+#Sun Apr 28 15:32:57 CEST 2019
+base.0=C\:\\Users\\yanni\\OneDrive\\Documents\\INSA\\Projet\\Fractionne\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex
